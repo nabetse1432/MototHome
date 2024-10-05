@@ -395,7 +395,7 @@ input[type="submit"]:active{
 
     /* Ajusta otros elementos según sea necesario */
 }
-@media (max-width: 480px) {
+@media (max-width:clamp(300px,480px,768px)) {
     
     header {
         width: auto;
