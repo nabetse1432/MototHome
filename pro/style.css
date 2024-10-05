@@ -396,6 +396,7 @@ input[type="submit"]:active{
     /* Ajusta otros elementos según sea necesario */
 }
 @media (max-width: 480px) {
+    
     header {
        flex-direction: row;
         height: auto; /* Ajusta la altura */
@@ -421,7 +422,7 @@ input[type="submit"]:active{
     .box {
         height: auto;
         width: 100%;
-        flex-direction: row;
+        flex-direction: column;
         height: auto;
          /* Permite que la altura sea automática */
     }
@@ -429,7 +430,8 @@ input[type="submit"]:active{
     .art {
         width: 75%; /* Aumenta el ancho en pantallas pequeñas */
         height: auto;
-        overflow: scroll; /* Permite que la altura sea automática */
+        overflow: scroll; 
+        flex-direction: column ;/* Permite que la altura sea automática */
     }
 
     /* Ajusta otros elementos según sea necesario */
