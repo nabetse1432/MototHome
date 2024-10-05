@@ -404,7 +404,7 @@ input[type="submit"]:active{
     }
 
     header img {
-        width: 80%; /* Ajusta el ancho de la imagen */
+        width: 9.6px; /* Ajusta el ancho de la imagen */
         max-width: 200px; /* Limita el tamaño máximo */
         height: auto;
         flex-direction: row; 
