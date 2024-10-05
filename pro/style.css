@@ -359,7 +359,7 @@ input[type="submit"]:active{
 }
 @media (max-width: 768px) {
     header {
-        flex-direction: column; /* Cambiar a columna en móviles */
+         /* Cambiar a columna en móviles */
         height: auto; /* Ajusta la altura */
     }
 
@@ -370,7 +370,7 @@ input[type="submit"]:active{
     }
 
     .content {
-        flex-direction: column; /* Cambia a columna */
+        flex-direction: row; /* Cambia a columna */
         padding: 1rem; /* Reduce el padding */
     }
 
