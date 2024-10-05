@@ -70,7 +70,7 @@ header img:hover{
     border-radius: 15px;
     transition: 0.6s ease-in-out;
     height: 400px;
-    overflow: hidden;
+    overflow: scroll;
 }
 .art:hover{
     background-color:#f3c73b ;
@@ -375,28 +375,34 @@ input[type="submit"]:active{
     }
 
     .content .vinc {
-        font-size: 16px; /* Reduce el tamaño de fuente */
+        font-size: 10px; /* Reduce el tamaño de fuente */
     }
 
     .box {
-        height: auto; /* Permite que la altura sea automática */
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+         /* Permite que la altura sea automática */
     }
 
     .art {
-        width: 90%; /* Aumenta el ancho en pantallas pequeñas */
-        height: auto; /* Permite que la altura sea automática */
+        width: 75%; /* Aumenta el ancho en pantallas pequeñas */
+        height: auto;
+        overflow: scroll; /* Permite que la altura sea automática */
     }
 
     /* Ajusta otros elementos según sea necesario */
 }
 @media (max-width: 480px) {
+   
     .content {
         flex-direction: column; /* Cambia a columna */
         padding: 0.5rem; /* Reduce aún más el padding */
     }
 
     .content .vinc {
-        font-size: 14px; /* Reduce más el tamaño de fuente */
+        font-size: 10px; /* Reduce más el tamaño de fuente */
     }
 
     .art {
