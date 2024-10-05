@@ -421,7 +421,7 @@ input[type="submit"]:active{
     .box {
         height: auto;
         width: 100%;
-        flex-direction: column;
+        flex-direction: row;
         height: auto;
          /* Permite que la altura sea automática */
     }
