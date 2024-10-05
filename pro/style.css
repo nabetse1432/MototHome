@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #585757;
+    font-family:Bungee ;
+}
+header{
+    display: flex;
+    height: 330px;
+    margin: auto;
+}
+
+header img{
+    width: 100px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .6;
+    transition: .6s ease-in-out;
+}
+header img:hover{
+    width: 300px;
+    height: 330px;
+    opacity: 1;
+
+}
+
+.content{
+    width: 100%;
+    height: 70px;
+    background-color:#c61010 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 5rem;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+}
+.content .vinc{
+    text-decoration: none;
+    color: white;
+    margin: 0 1.5rem;
+    font-size: 20px;
+    transition: .4s ease-in;
+}
+.vinc:hover{
+    color: rgb(197, 191, 28);
+}
+
+.box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    margin-top: 10px;
+    color: white;
+    height: 2110px;
+}
+.art{
+    width: 75%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    transition: 0.6s ease-in-out;
+    height: 400px;
+    overflow: hidden;
+}
+.art:hover{
+    background-color:#f3c73b ;
+    width: 85%;
+    height: 350px;
+}
+
+.a1{
+    display: flex; 
+}
+
+.r6{
+    width: 300px;
+    height: 350px;
+    filter: drop-shadow(10px 8px 7px #0044F8);
+}
+.h2{
+    width: 300px;
+    height: 350px;
+     filter: drop-shadow(10px 8px 7px #3BFF02);
+}
+.pani{
+    width: 300px;
+    height: 350px;
+     filter: drop-shadow(10px 8px 7px #ec520f);
+}
+.cbr{
+    width: 300px;
+    height: 350px;
+     filter: drop-shadow(10px 8px 7px #ec0f0f );
+}
+.bmw{
+    width: 300px;
+    height: 350px;
+     filter: drop-shadow(10px 8px 7px #2600c1 );
+}
+.pb1{
+    margin: 0;
+    font-size: 25px;
+}
+#btn1,#btn2,#btn3,#btn4,#btn5{
+    border: none;
+    border-radius: 5px;
+    width: 60px;
+    height: 40px;
+    justify-self: flex-end;
+    align-self: flex-end;
+    transition: 0.6s ease-in-out;
+    background-color:#706e6e ;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    font-size: 15px;
+}
+.btn1:hover{
+    cursor: pointer;
+    background-color:#ccc;
+    color: black;
+}
+.foot{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background-color: red ;
+    text-align: center;
+    line-height: 100px;
+}
+.foote{
+    /* position: absolute;
+    bottom: 0; */
+    width: 100%;
+    height: 70px;
+    background-color: red ;
+    text-align: center;
+    /* line-height: 100px; */
+}
+
+#form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    width: 600px;
+    height: 400px;
+    background-color: #ccc;
+    margin: auto;   
+    border-radius: 5px; 
+    padding: 10px;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    height: 100px;
+    text-align: center;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    height: 100px;
+    gap: 5px;
+    text-align: center;
+}
+.box3{
+    width: 290px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-self:center ;
+    align-self: center;
+    margin: auto;
+    text-align: center;
+    gap: 5px;
+}
+#enviar{
+    border: none;
+    width: 280px;
+    background-color:#c61010 ;    
+    border-radius: 5px;
+    font-family:Bungee ;
+    transition: .3ms ease;
+    color: white;
+    height: 30px;
+    align-self: center;
+}
+#enviar:active{
+    background-color: #343333;  
+}
+#form #datp{  
+    width: 250px;
+    height: 100px;
+    resize: none;
+    border: none;
+    border-radius: 5px ;
+    align-self: center;
+}
+.lab{
+    padding: 3px;
+
+}
+#form .area{    
+    width: 290px;
+    height: 50px;
+    resize: none;
+    padding-bottom: 2cm;
+}
+.foo{
+    width: 100%;
+    height: 70px;
+    background-color: red ;
+    display: flex;
+}
+#img_fo{
+    align-self: center;
+    margin: auto;
+}
+input[type="submit"]{
+    border: none;
+    background-color:#c61010 ;    
+    border-radius: 5px;
+    font-family:Bungee ;
+    transition: .3ms ease;
+    color: white;
+    height: 30px;
+}
+input[type="submit"]:active{
+    
+    background-color: #343333;
+   
+}
+
+#forma{
+     background: #B2ABA9; 
+    width: 300px;
+    height: 500px;
+    margin: auto;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.7s ease ;
+}
+
+#forma #texta{
+    width: 60%;
+    align-self: center;
+}
+
+#envi{
+    background-color: #ec0f0f;
+    width: 100px;
+    margin-top: 3px;
+    align-self: center;
+    transition: 0.7 ease;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#envi:hover{
+    background-color: #ecba0f ;
+    color: black;
+}
+
+#texta{
+    resize: none;
+}
+
+#opera{
+    border: none;
+
+}
+
+#opr{
+    display: flex;
+    flex-direction:column ;
+}
+#opre{
+    display: flex;
+    flex-direction:column ;
+}
+#eva, #eva1{
+    background-color: #ec0f0f;
+    width: 100px;
+    margin-top: 3px;
+    align-self: center;
+    transition: 0.7 ease;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#eva:hover, #eva1:hover{
+    background-color: #ecba0f ;
+    color: black;
+}
+#ace{
+    background-color: #ec0f0f;
+    width: 100px;
+    margin-top: 3px;
+    align-self: center;
+    transition: 0.7 ease;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#ace:hover{
+    background-color: #ecba0f ;
+    color: black;
+}
+#resu{
+    resize: none;
+    height: 150px;
+}
+
+.conocer{
+    width: 700px;
+    height: 250px;
+    background-color: #979696;
+    margin: 10px auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+.conocer p{
+    margin: 0;
+}
+.nombres{ 
+    width: 350px;
+}
+.redes{
+    width: 350px;
+}
+.conocer h1{
+    color: black;
+}
+
+#opre{
+    gap: 5px;
+}
+#res{
+    resize: none;
+    height: 100px;
+}
