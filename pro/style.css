@@ -395,20 +395,4 @@ input[type="submit"]:active{
 
     /* Ajusta otros elementos según sea necesario */
 }
-@media (max-width: 480px) {
-   
-    .content {
-        flex-direction: column; /* Cambia a columna */
-        padding: 0.5rem; /* Reduce aún más el padding */
-    }
 
-    .content .vinc {
-        font-size: 10px; /* Reduce más el tamaño de fuente */
-    }
-
-    .art {
-        width: 95%; /* Aumenta el ancho en pantallas muy pequeñas */
-    }
-
-    /* Ajusta otros elementos según sea necesario */
-}
