@@ -357,6 +357,38 @@ input[type="submit"]:active{
     resize: none;
     height: 100px;
 }
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; /* Cambiar a columna en móviles */
+        height: auto; /* Ajusta la altura */
+    }
+
+    header img {
+        width: 80%; /* Ajusta el ancho de la imagen */
+        max-width: 200px; /* Limita el tamaño máximo */
+        height: auto; /* Mantiene la relación de aspecto */
+    }
+
+    .content {
+        flex-direction: column; /* Cambia a columna */
+        padding: 1rem; /* Reduce el padding */
+    }
+
+    .content .vinc {
+        font-size: 16px; /* Reduce el tamaño de fuente */
+    }
+
+    .box {
+        height: auto; /* Permite que la altura sea automática */
+    }
+
+    .art {
+        width: 90%; /* Aumenta el ancho en pantallas pequeñas */
+        height: auto; /* Permite que la altura sea automática */
+    }
+
+    /* Ajusta otros elementos según sea necesario */
+}
 @media (max-width: 480px) {
     .content {
         flex-direction: column; /* Cambia a columna */
