@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
-@media (max-width: 768px) {
-    img {
-      width: 100%;
-    }
-  }
+
 body{
     margin: 0;
     padding: 0;
@@ -360,4 +356,20 @@ input[type="submit"]:active{
 #res{
     resize: none;
     height: 100px;
+}
+@media (max-width: 480px) {
+    .content {
+        flex-direction: column; /* Cambia a columna */
+        padding: 0.5rem; /* Reduce aún más el padding */
+    }
+
+    .content .vinc {
+        font-size: 14px; /* Reduce más el tamaño de fuente */
+    }
+
+    .art {
+        width: 95%; /* Aumenta el ancho en pantallas muy pequeñas */
+    }
+
+    /* Ajusta otros elementos según sea necesario */
 }
