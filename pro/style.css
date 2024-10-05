@@ -366,7 +366,8 @@ input[type="submit"]:active{
     header img {
         width: 80%; /* Ajusta el ancho de la imagen */
         max-width: 200px; /* Limita el tamaño máximo */
-        height: auto; /* Mantiene la relación de aspecto */
+        height: auto;
+        flex-direction: row; 
     }
 
     .content {
