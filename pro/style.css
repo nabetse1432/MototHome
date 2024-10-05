@@ -359,7 +359,7 @@ input[type="submit"]:active{
 }
 @media (max-width: 768px) {
     header {
-         /* Cambiar a columna en móviles */
+       flex-direction: row;
         height: auto; /* Ajusta la altura */
     }
 
