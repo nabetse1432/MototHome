@@ -398,6 +398,7 @@ input[type="submit"]:active{
 @media (max-width: 480px) {
     
     header {
+        width: auto;
        flex-direction: row;
         height: auto; /* Ajusta la altura */
     }
