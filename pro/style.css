@@ -433,6 +433,10 @@ input[type="submit"]:active{
         overflow: scroll; 
         flex-direction: column ;/* Permite que la altura sea automática */
     }
-
+    .art:hover {
+        background-color:#f3c73b ;
+        width: 75%;
+        height: auto;
+    }
     /* Ajusta otros elementos según sea necesario */
 }
